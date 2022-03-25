@@ -14,6 +14,9 @@
 
 ## 팀장이 쏜다!!! 먹고 싶은 거 다 시켜!
 ### 안나 만세^^ 난 일단 햄버거 2개랑 치킨 2마리 피자 2판이요~
+# README.md  작성 시
+- EASYME.md 이용하세요
+- https://www.easyme.online/d
 
 # Projects_kanban
 - 우선 저희는 앞으로 개발을 진행하면서 수행 해야하는 각각의 작업들을 나눠서 모두 이슈로 만들어야 합니다. 
@@ -23,3 +26,5 @@
 
 ![title](https://miro.medium.com/max/1400/1*VWdrBFzL7Ocu5L_ZAi1VcA.gif)   
 [출처 : https://dhgu-dev.medium.com/%EB%A7%A8%EB%95%85%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-github-%EC%82%AC%EC%9A%A9%EB%B2%95-46f64418cf81]
+
+#
