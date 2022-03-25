@@ -14,11 +14,12 @@
 
 ## 팀장이 쏜다!!! 먹고 싶은 거 다 시켜!
 ### 안나 만세^^ 난 일단 햄버거 2개랑 치킨 2마리 피자 2판이요~
-# README.md  작성 시
+
+## README.md  작성 시
 - EASYME.md 이용하세요
 - https://www.easyme.online/d
 
-# Projects_kanban
+## Projects_kanban
 - 우선 저희는 앞으로 개발을 진행하면서 수행 해야하는 각각의 작업들을 나눠서 모두 이슈로 만들어야 합니다. 
 - 이렇게 만들어진 이슈는 Automation 설정에 의해 자동으로 To Do열에 속하게 됩니다.
 그리고 실제 개발에 들어갈 이슈를 골라 풀 리퀘스트를 생성하면 자동으로 In Progress 열에 속하게 됩니다.
