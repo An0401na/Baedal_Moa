@@ -14,6 +14,9 @@
 
 ## 팀장이 쏜다!!! 먹고 싶은 거 다 시켜!
 ### 안나 만세^^ 난 일단 햄버거 2개랑 치킨 2마리 피자 2판이요~
+## github 협업 튜토리얼
+- 아래 게시글을 찬찬히 읽어보세요
+- https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/
 
 ## README.md  작성 시
 - EASYME.md 이용하세요
