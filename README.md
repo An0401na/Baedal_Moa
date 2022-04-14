@@ -1,6 +1,6 @@
 # BACKEND
 
-## 사용언어 : Node.js
+## Node.js
 REST API Server implement
 
 ## Coding rule
@@ -11,7 +11,7 @@ Following famous coding style guide.
 
 ## Progress
 
-DB 연결 성공
+DB connect success
 
-다음 과제 : 
-req가 들어오면 res로 json 객체 보내기
+next : 
+When the client sends a request, the server sends a json object.
