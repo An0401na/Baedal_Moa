@@ -1,8 +1,7 @@
 # BACKEND
 
 ## 사용언어 : Node.js
-
-## REST API Server implement
+REST API Server implement
 
 ## Coding rule
 
