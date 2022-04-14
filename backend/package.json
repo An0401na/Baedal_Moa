@@ -1,23 +1,29 @@
 {
-  "name": "damosa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "baedalmoa",
+  "version": "0.0.1",
+  "description": "Baedal_Moa API Server",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app"
   },
   "author": "seorining",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "morgan": "^1.10.0",
-    "multer": "^1.4.4",
     "mysql2": "^2.3.3",
     "nunjucks": "^3.2.3",
+    "passport": "^0.5.2",
+    "passport-kakao": "^1.0.1",
+    "passport-local": "^1.0.0",
     "sequelize": "^6.19.0",
-    "sequelize-cli": "^6.4.1"
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
