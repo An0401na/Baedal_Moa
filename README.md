@@ -7,6 +7,7 @@ REST API Server implement
 
 Following famous coding style guide.
 (ESLint and airbnb) 
+https://github.com/airbnb/javascript
 
 
 ## Progress
