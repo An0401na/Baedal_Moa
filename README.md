@@ -2,11 +2,17 @@
 
 ## 사용언어 : Node.js
 
-## 코딩 규칙
+## REST API Server implement
 
-코드의 일관성을 위해 유명한 코딩 스타일 가이드 따라하였습니다.
-ESLint와 에어비앤비 사의 가이드를 따릅니다.
+## Coding rule
+
+Following famous coding style guide.
+(ESLint and airbnb) 
 
 
-현재 개발
-=> DB 연결 성공
+## Progress
+
+DB 연결 성공
+
+다음 과제 : 
+req가 들어오면 res로 json 객체 보내기
