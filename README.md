@@ -13,6 +13,12 @@ https://github.com/airbnb/javascript
 ## Progress
 
 DB connect success
+Make DB schema
+CRUD
 
-next : 
-When the client sends a request, the server sends a json object.
+
+## To-do list
+
+1. KaKao Login
+2. room List
+3. restaurant List
