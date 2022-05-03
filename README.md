@@ -15,10 +15,11 @@ https://github.com/airbnb/javascript
 DB connect success
 Make DB schema
 CRUD
+room List
+rastaurant List
 
 
 ## To-do list
 
 1. KaKao Login
-2. room List
-3. restaurant List
+2. room Join
