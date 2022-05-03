@@ -59,7 +59,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(100),
       allowNull: true
     },
-    room_is_acitve: {
+    room_is_active: {
       type: DataTypes.TINYINT,
       allowNull: true
     }

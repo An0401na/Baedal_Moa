@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   "development": {
     "username": "damosa",
-    "password": process.env.SEQUELIZE_PASSWORD,
+    "password": process.env.DB_PASSWORD,
     "database": "test",
     "host": "203.249.22.52",
     "dialect": "mysql",
