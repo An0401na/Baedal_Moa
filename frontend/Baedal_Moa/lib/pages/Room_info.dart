@@ -1,5 +1,6 @@
-import 'package:sample/model/Room.dart';
 import 'package:flutter/material.dart';
+
+import '../Model/Room.dart';
 
 class Room_info extends StatelessWidget {
   late final Room room;

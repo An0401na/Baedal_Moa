@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Model/Res.dart';
 import '../Services/Services_Res.dart';
-import '../model/Res.dart';
 import 'Restaurant_info.dart';
 
 class Restaurant_List extends StatefulWidget {

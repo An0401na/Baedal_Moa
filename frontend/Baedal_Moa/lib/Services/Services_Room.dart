@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:sample/model/Room.dart';
+import '../Model/Room.dart';
 
 class Services_Room {
   static const String url = 'http://203.249.22.50:8080/';

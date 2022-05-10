@@ -1,6 +1,5 @@
-import '../model/Res.dart';
-import 'package:sample/model/Res.dart';
 import 'package:flutter/material.dart';
+import '../Model/Res.dart';
 
 class Restaurant_info extends StatelessWidget {
   late final Res res;

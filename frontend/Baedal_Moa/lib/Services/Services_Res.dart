@@ -1,7 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:sample/model/Res.dart';
+import '../Model/Res.dart';
+
 
 class Services_Res {
   static const String url = 'http://203.249.22.50:8080/reslist';
