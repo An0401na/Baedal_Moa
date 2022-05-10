@@ -3,6 +3,6 @@
 3    package="net.jonhanson.flutter_native_splash" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->C:\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_native_splash-2.1.6\android\src\main\AndroidManifest.xml
+5-->C:\Dev\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_native_splash-2.1.6\android\src\main\AndroidManifest.xml
 6
 7</manifest>

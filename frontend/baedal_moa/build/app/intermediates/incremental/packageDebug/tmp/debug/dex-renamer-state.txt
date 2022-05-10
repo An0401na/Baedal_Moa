@@ -1,4 +1,4 @@
-#Tue May 10 19:57:21 KST 2022
-base.0=C\:\\Flutter_github\\Flutter_project\\baedal_moa\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Tue May 10 21:35:08 KST 2022
+base.0=C\:\\Dev\\github_flutter\\anna_baedal_moa\\frontend\\baedal_moa\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Flutter_github\\Flutter_project\\baedal_moa\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Dev\\github_flutter\\anna_baedal_moa\\frontend\\baedal_moa\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Anna\\.gradle\\caches\\transforms-2\\files-2.1\\954832eba87b500498f8147ab91412d2\\appcompat-1.0.2\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\rkdal\\.gradle\\caches\\transforms-2\\files-2.1\\954832eba87b500498f8147ab91412d2\\appcompat-1.0.2\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
