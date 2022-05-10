@@ -38,7 +38,7 @@ class Baedal_Moa extends StatelessWidget {
                       backgroundColor: Colors.white,
                       foregroundColor: Colors.deepOrange,
                       titleTextStyle: TextStyle(color: Colors.black))),
-              home: KakaoLoginPage(),
+              home: Home(),
             );
           }
         });
