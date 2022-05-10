@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:3:11-42
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:5:5-15:19
+activity#com.kakao.sdk.flutter.TalkAuthCodeActivity
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:6:9-9:20
+	android:launchMode
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:7:19-50
+	android:theme
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:8:19-59
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:6:19-55
+activity#com.kakao.sdk.flutter.AuthCodeCustomTabsActivity
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:10:9-14:59
+	android:launchMode
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:13:17-48
+	android:exported
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:12:17-40
+	android:theme
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:14:17-57
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:11:17-59
+queries
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:17:5-25:15
+package#com.kakao.talk
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:18:9-50
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:18:18-47
+package#com.kakao.onetalk
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:19:9-53
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:19:18-50
+package#com.android.chrome
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:20:9-54
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:20:18-51
+package#com.chrome.beta
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:21:9-51
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:21:18-48
+package#com.chrome.dev
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:22:18-47
+package#com.locnall.KimGiSa
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:23:9-55
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:23:18-52
+package#com.lguplus.navi
+ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:24:9-52
+	android:name
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml:24:18-49
+uses-sdk
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\flutter\.pub-cache\hosted\pub.dartlang.org\kakao_flutter_sdk-0.9.0\android\src\main\AndroidManifest.xml

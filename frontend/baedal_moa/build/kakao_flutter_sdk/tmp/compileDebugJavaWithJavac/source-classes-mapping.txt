@@ -1,0 +1,2 @@
+com/kakao/sdk/flutter/BuildConfig.java
+ com.kakao.sdk.flutter.BuildConfig

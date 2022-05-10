@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/baedal_moa/BuildConfig.java
+ com.example.baedal_moa.BuildConfig
