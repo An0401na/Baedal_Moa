@@ -4,19 +4,15 @@ import 'package:sample/model/Room.dart';
 import 'package:sample/Services/Services_Room.dart';
 import 'package:sample/pages/Restaurant_List.dart';
 
-import '../Services/Services_Res.dart';
 import 'Room_info.dart';
 
 class Home extends StatefulWidget {
-  // const Home({Key? key}) : super(key: key);
-
   @override
   State<Home> createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
   late List<Room> _room = [];
-  // List<Map<String, String>> datas = [];
   int currentPageIndex = 0;
 
   @override
@@ -29,17 +25,6 @@ class _HomeState extends State<Home> {
       });
     });
   }
-
-// datas = [
-//   {
-//     "title": "방 제목",
-//     "intro": "방 소개",
-//     "host": "방장 닉네임",
-//     "time": "남은 시간",
-//     "people": "인원",
-//     "price": "인당 배달비"
-//   },
-// ];
 
   PreferredSizeWidget appbarWidget() {
     return AppBar(
@@ -192,16 +177,14 @@ class _HomeState extends State<Home> {
     return BottomNavigationBarItem(icon: iconN, label: labelN);
   }
 
-  void setPageIndexState(int index) {
-    currentPageIndex = index;
-  }
-
   Widget bottomNavigationBarWidget() {
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
       onTap: (int index) {
         print(index);
-        setPageIndexState(index);
+        setState(() {
+          currentPageIndex = index;
+        });
       },
       currentIndex: currentPageIndex,
       iconSize: 30,
