@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.damosa_login"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Flutter_github\Flutter_project\damosa_login\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->C:\Flutter_github\Flutter_project\damosa_login\android\app\src\main\AndroidManifest.xml:3:22-64
+15
+16    <queries>
+16-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-15:15
+17        <package android:name="com.kakao.talk" />
+17-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-50
+17-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-47
+18        <package android:name="com.kakao.onetalk" />
+18-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-53
+18-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:9:18-50
+19        <package android:name="com.android.chrome" />
+19-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-54
+19-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:10:18-51
+20        <package android:name="com.chrome.beta" />
+20-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-51
+20-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-48
+21        <package android:name="com.chrome.dev" />
+21-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-50
+21-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-47
+22        <package android:name="com.locnall.KimGiSa" />
+22-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-55
+22-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-52
+23        <package android:name="com.lguplus.navi" />
+23-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-52
+23-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:14:18-49
+24    </queries>
+25
+26    <application
+27        android:name="android.app.Application"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="damosa_login" >
+32        <activity
+33            android:name="com.example.damosa_login.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <activity
+58            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
+59            android:exported="true"
+60            android:launchMode="singleTask"
+60-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-44
+61            android:theme="@style/TransparentCompat" >
+61-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-53
+62            <intent-filter android:label="flutter_web_auth" >
+63                <action android:name="android.intent.action.VIEW" />
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+66                <category android:name="android.intent.category.BROWSABLE" />
+67
+68                <!-- Redirect URI, "kakao${YOUR_NATIVE_APP_KEY}://oauth" 형식 -->
+69                <data
+70                    android:host="oauth"
+71                    android:scheme="kakaof1985bfa359387851bee7bd8bf025b8b" />
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+79            android:name="flutterEmbedding"
+80            android:value="2" />
+81
+82        <activity
+82-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-22:20
+83            android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
+83-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-70
+84            android:launchMode="singleTask"
+84-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-44
+85            android:theme="@style/TransparentCompat" >
+85-->[:kakao_flutter_sdk] C:\Flutter_github\Flutter_project\damosa_login\build\kakao_flutter_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-53
+86        </activity>
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\Anna\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+94    </application>
+95
+96</manifest>

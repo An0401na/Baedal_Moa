@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Flutter_github\\Flutter_project\\damosa_login\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Flutter_github\\Flutter_project\\damosa_login\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "175,940",
+                        "endLines": "9,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "591,1106"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,470",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,634"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Anna\\.gradle\\caches\\transforms-2\\files-2.1\\954832eba87b500498f8147ab91412d2\\appcompat-1.0.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "639,709,793,877,973,1075,1177",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "704,788,872,968,1070,1172,1266"
+                    }
+                }
+            ]
+        }
+    ]
+}
