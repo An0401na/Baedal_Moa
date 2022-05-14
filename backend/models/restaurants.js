@@ -36,7 +36,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true
     },
     res_image_dir: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.BLOB,
       allowNull: true
     }
   }, {

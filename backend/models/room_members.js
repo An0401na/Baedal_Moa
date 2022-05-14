@@ -11,7 +11,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
     user_id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.BIGINT,
       allowNull: false,
       primaryKey: true,
       references: {
@@ -39,6 +39,14 @@ module.exports = function(sequelize, DataTypes) {
         fields: [
           { name: "room_id" },
           { name: "user_id" },
+        ]
+      },
+      {
+        name: "room_members_user_id_room_id_unique",
+        unique: true,
+        using: "BTREE",
+        fields: [
+          { name: "room_id" },
         ]
       },
       {

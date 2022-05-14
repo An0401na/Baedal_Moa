@@ -1,10 +1,9 @@
 const express = require('express');
-const { v4: uuidv4 } = require('uuid');
-const { rooms, restaurants } = require('../models');
-const { isLoggedIn } = require('./middlewares');
-const { Op } = require('sequelize');
+//const { isLoggedIn } = require('./middlewares');
+const { rooms } = require('../models');
 
 const router = express.Router();
+
 
 router.get('/', async (req, res, next) => {
     try{
@@ -20,12 +19,15 @@ router.get('/', async (req, res, next) => {
     }
 });
 
-router.get('/reslist', async(req, res, next) => {
+router.post('/', async(req, res, next) => {
     try{
-        const resList = await restaurants.findAll({
-            attributes: ['res_name', 'res_location', 'res_category', 'res_information', 'res_min_order_price'],
-        })
-        res.json(resList);
+        console.log(req.body);
+        res.json({});
+        const result = {
+            id: 5,
+            name: 'hi'
+        }
+        res.send(result);
     } catch(err) {
         console.error(err);
         next(err);

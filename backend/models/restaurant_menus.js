@@ -25,7 +25,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true
     },
     menu_image_dir: {
-      type: DataTypes.STRING(200),
+      type: DataTypes.BLOB,
       allowNull: true
     }
   }, {

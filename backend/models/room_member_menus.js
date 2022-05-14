@@ -10,15 +10,6 @@ module.exports = function(sequelize, DataTypes) {
         key: 'room_id'
       }
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
-      references: {
-        model: 'users',
-        key: 'user_id'
-      }
-    },
     menu_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -26,6 +17,15 @@ module.exports = function(sequelize, DataTypes) {
       references: {
         model: 'restaurant_menus',
         key: 'menu_id'
+      }
+    },
+    user_id: {
+      type: DataTypes.BIGINT,
+      allowNull: false,
+      primaryKey: true,
+      references: {
+        model: 'users',
+        key: 'user_id'
       }
     },
     menu_price: {
@@ -43,8 +43,8 @@ module.exports = function(sequelize, DataTypes) {
         using: "BTREE",
         fields: [
           { name: "room_id" },
-          { name: "user_id" },
           { name: "menu_id" },
+          { name: "user_id" },
         ]
       },
       {

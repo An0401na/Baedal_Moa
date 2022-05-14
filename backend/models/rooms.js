@@ -8,16 +8,8 @@ module.exports = function(sequelize, DataTypes) {
       primaryKey: true
     },
     room_name: {
-      type: DataTypes.STRING(50),
+      type: DataTypes.STRING(100),
       allowNull: true
-    },
-    host_user_id: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {
-        model: 'users',
-        key: 'user_id'
-      }
     },
     res_id: {
       type: DataTypes.INTEGER,
@@ -27,16 +19,24 @@ module.exports = function(sequelize, DataTypes) {
         key: 'res_id'
       }
     },
+    host_user_id: {
+      type: DataTypes.BIGINT,
+      allowNull: true,
+      references: {
+        model: 'users',
+        key: 'user_id'
+      }
+    },
     room_max_people: {
       type: DataTypes.INTEGER,
       allowNull: true
     },
     room_start_time: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING(50),
       allowNull: true
     },
     room_expire_time: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING(50),
       allowNull: true
     },
     room_location_x: {
@@ -53,10 +53,6 @@ module.exports = function(sequelize, DataTypes) {
     },
     room_del_fee: {
       type: DataTypes.INTEGER,
-      allowNull: true
-    },
-    room_info: {
-      type: DataTypes.STRING(100),
       allowNull: true
     },
     room_is_active: {
@@ -77,17 +73,17 @@ module.exports = function(sequelize, DataTypes) {
         ]
       },
       {
-        name: "host_user_id",
-        using: "BTREE",
-        fields: [
-          { name: "host_user_id" },
-        ]
-      },
-      {
         name: "res_id",
         using: "BTREE",
         fields: [
           { name: "res_id" },
+        ]
+      },
+      {
+        name: "host_user_id",
+        using: "BTREE",
+        fields: [
+          { name: "host_user_id" },
         ]
       },
     ]

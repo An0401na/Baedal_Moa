@@ -4,18 +4,22 @@ const cookieParser = require('cookie-parser');
 const passport = require('passport');
 const morgan = require('morgan');
 const session = require('express-session');
-const nunjucks = require('nunjucks');
 const dotenv = require('dotenv');
 
 dotenv.config();
-// const authRouter = require('./routes/auth');
+const roomRouter = require('./routes/room');
+const mapRouter = require('./routes/map');
+const reslistRouter = require('./routes/reslist');
+const loginRouter = require('./routes/login');
+const menuRouter = require('./routes/menu');
 const indexRouter = require('./routes');
+
 const { sequelize } = require('./models');
 const passportConfig = require('./passport');
 
 const app = express();
 passportConfig();
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 8080);
 // app.set('view engine', 'html');
 // nunjucks.configure('views', {
 //   express: app,
@@ -32,7 +36,7 @@ sequelize.sync({ force: false })
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(session({
   resave: false,
@@ -47,6 +51,12 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // app.use('/auth', authRouter);
+//app.use('/image', imageRouter);
+app.use('/room', roomRouter);
+app.use('/map', mapRouter);
+app.use('/reslist', reslistRouter);
+app.use('/login', loginRouter);
+app.use('/menu', menuRouter);
 app.use('/', indexRouter);
 
 app.use((req, res, next) => {
@@ -63,5 +73,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(app.get('port'), () => {
-  console.log(app.get('port'), 'port waitng');
+  console.log(app.get('port'), 'port waiting');
 });
